@@ -9,16 +9,7 @@
 
 /* CSS Variables for Theme Support */
 :root {
-    /* Primary Colors */
-    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --primary-color: #667eea;
-    --primary-dark: #5a67d8;
-    --secondary-color: #764ba2;
-    
-    /* Neutral Colors */
-    --bg-primary: #fafafa;
-    --bg-secondary: #ffffff;
-    --bg-accent: #f8fafc;
+   
     --text-primary: #1a202c;
     --text-secondary: #4a5568;
     --text-muted: #718096;

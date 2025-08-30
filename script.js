@@ -24,20 +24,7 @@ class AuthSystem {
             signupPassword.addEventListener('input', () => this.updatePasswordStrength());
         }
 
-        // Real-time validation
-        this.setupRealTimeValidation();
-
-        // Keyboard shortcuts
-        document.addEventListener('keydown', (e) => this.handleKeyboardShortcuts(e));
-    }
-
-    setupPasswordStrength() {
-        const passwordInput = document.getElementById('signupPassword');
-        if (!passwordInput) return;
-
-        passwordInput.addEventListener('input', () => {
-            this.updatePasswordStrength();
-        });
+   
     }
 
     setupTheme() {
