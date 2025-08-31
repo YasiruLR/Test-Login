@@ -10,14 +10,7 @@
 /* CSS Variables for Theme Support */
 :root {
    
-    --text-primary: #1a202c;
-    --text-secondary: #4a5568;
-    --text-muted: #718096;
-    --border-color: #e2e8f0;
-    --border-focus: #667eea;
-    
-    /* Status Colors */
-    --success-color: #38a169;
+   
     --error-color: #e53e3e;
     --warning-color: #dd6b20;
     --info-color: #3182ce;
