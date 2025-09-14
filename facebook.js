@@ -10,10 +10,7 @@ class FacebookClone {
         this.init();
     }
     bindEvents() {
-        // Navigation events
-        document.querySelectorAll('.nav-icon').forEach(icon => {
-            icon.addEventListener('click', (e) => this.handleNavigation(e));
-        });
+       
 
         // Profile dropdown
         document.querySelector('.profile-pic').addEventListener('click', (e) => {
