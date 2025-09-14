@@ -9,14 +9,6 @@ class FacebookClone {
         };
         this.init();
     }
-
-    init() {
-        this.bindEvents();
-        this.generateSamplePosts();
-        this.renderPosts();
-        this.setupSearch();
-    }
-
     bindEvents() {
         // Navigation events
         document.querySelectorAll('.nav-icon').forEach(icon => {
