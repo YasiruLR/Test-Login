@@ -11,16 +11,7 @@ class FacebookClone {
     }
     bindEvents() {
        ;
-        });
-
-        // Close dropdown when clicking outside
-        document.addEventListener('click', () => {
-            this.closeDropdown();
-        });
-
-        // Post creation
-        document.getElementById('postInput').addEventListener('click', () => {
-            this.openPostModal();
+    
         });
 
         // Modal events
