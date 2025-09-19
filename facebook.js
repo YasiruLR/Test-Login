@@ -10,12 +10,7 @@ class FacebookClone {
         this.init();
     }
     bindEvents() {
-       
-
-        // Profile dropdown
-        document.querySelector('.profile-pic').addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.toggleDropdown();
+       ;
         });
 
         // Close dropdown when clicking outside
