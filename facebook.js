@@ -13,25 +13,7 @@ class FacebookClone {
        ;
     
         });
-            }
-            if (e.target.closest('.action-btn[data-action="share"]')) {
-                this.handleShare(e);
-            }
-        });
-
-        // Story click events
-        document.querySelectorAll('.story:not(.create-story)').forEach(story => {
-            story.addEventListener('click', () => this.openStory());
-        });
-
-        // Contact events
-        document.querySelectorAll('.contact-item').forEach(contact => {
-            contact.addEventListener('click', (e) => this.openChat(e));
-        });
-    }
-
-    handleNavigation(e) {
-        // Remove active class from all nav icons
+          
         document.querySelectorAll('.nav-icon').forEach(icon => {
             icon.classList.remove('active');
         });
