@@ -13,19 +13,6 @@ class FacebookClone {
        ;
     
         });
-
-       
-        window.addEventListener('scroll', () => {
-            this.handleScroll();
-        });
-
-        // Like button events
-        document.addEventListener('click', (e) => {
-            if (e.target.closest('.action-btn[data-action="like"]')) {
-                this.handleLike(e);
-            }
-            if (e.target.closest('.action-btn[data-action="comment"]')) {
-                this.handleComment(e);
             }
             if (e.target.closest('.action-btn[data-action="share"]')) {
                 this.handleShare(e);
