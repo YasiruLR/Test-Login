@@ -10,49 +10,9 @@ class FacebookClone {
         this.init();
     }
     bindEvents() {
-        // Navigation events
-        document.querySelectorAll('.nav-icon').forEach(icon => {
-            icon.addEventListener('click', (e) => this.handleNavigation(e));
+       ;
+    
         });
-
-        // Profile dropdown
-        document.querySelector('.profile-pic').addEventListener('click', (e) => {
-            e.stopPropagation();
-            this.toggleDropdown();
-        });
-
-        // Close dropdown when clicking outside
-        document.addEventListener('click', () => {
-            this.closeDropdown();
-        });
-
-        // Post creation
-        document.getElementById('postInput').addEventListener('click', () => {
-            this.openPostModal();
-        });
-
-        // Modal events
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                this.closePostModal();
-            }
-        });
-
-        // Chat events
-        this.setupChatEvents();
-
-        // Infinite scroll
-        window.addEventListener('scroll', () => {
-            this.handleScroll();
-        });
-
-        // Like button events
-        document.addEventListener('click', (e) => {
-            if (e.target.closest('.action-btn[data-action="like"]')) {
-                this.handleLike(e);
-            }
-            if (e.target.closest('.action-btn[data-action="comment"]')) {
-                this.handleComment(e);
             }
             if (e.target.closest('.action-btn[data-action="share"]')) {
                 this.handleShare(e);
