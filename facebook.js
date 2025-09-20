@@ -14,17 +14,7 @@ class FacebookClone {
     
         });
 
-        // Modal events
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                this.closePostModal();
-            }
-        });
-
-        // Chat events
-        this.setupChatEvents();
-
-        // Infinite scroll
+       
         window.addEventListener('scroll', () => {
             this.handleScroll();
         });
