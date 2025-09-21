@@ -12,16 +12,7 @@ class FacebookClone {
     bindEvents() {
        ;
     
-        });
-          
-        document.querySelectorAll('.nav-icon').forEach(icon => {
-            icon.classList.remove('active');
-        });
-        
-        // Add active class to clicked icon
-        e.currentTarget.classList.add('active');
-        
-        // Simulate page navigation
+      
         this.showToast('Navigation', `Navigated to ${e.currentTarget.dataset.tooltip}`);
     }
 
