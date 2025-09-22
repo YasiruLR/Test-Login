@@ -14,15 +14,7 @@ class FacebookClone {
     
       
     
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.trim();
-            
-            if (query.length > 0) {
-                this.showSearchResults(query);
-            } else {
-                searchResults.style.display = 'none';
-            }
-        });
+        searchInp
 
         searchInput.addEventListener('focus', () => {
             if (searchInput.value.trim().length > 0) {
