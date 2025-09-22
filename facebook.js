@@ -13,23 +13,7 @@ class FacebookClone {
        ;
     
       
-        this.showToast('Navigation', `Navigated to ${e.currentTarget.dataset.tooltip}`);
-    }
-
-    toggleDropdown() {
-        const dropdown = document.querySelector('.dropdown-content');
-        dropdown.classList.toggle('show');
-    }
-
-    closeDropdown() {
-        const dropdown = document.querySelector('.dropdown-content');
-        dropdown.classList.remove('show');
-    }
-
-    setupSearch() {
-        const searchInput = document.getElementById('searchInput');
-        const searchResults = document.getElementById('searchResults');
-        
+    
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.trim();
             
