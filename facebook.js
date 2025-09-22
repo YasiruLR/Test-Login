@@ -13,14 +13,7 @@ class FacebookClone {
        ;
     
 
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.search-container')) {
-                searchResults.style.display = 'none';
-            }
-        });
-    }
+      
 
     showSearchResults(query) {
         const searchResults = document.getElementById('searchResults');
