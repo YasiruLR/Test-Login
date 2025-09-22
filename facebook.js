@@ -12,14 +12,7 @@ class FacebookClone {
     bindEvents() {
        ;
     
-      
-    
-        searchInp
 
-        searchInput.addEventListener('focus', () => {
-            if (searchInput.value.trim().length > 0) {
-                searchResults.style.display = 'block';
-            }
         });
 
         document.addEventListener('click', (e) => {
