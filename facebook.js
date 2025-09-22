@@ -12,55 +12,8 @@ class FacebookClone {
     bindEvents() {
        ;
     
-        });
-          
-        document.querySelectorAll('.nav-icon').forEach(icon => {
-            icon.classList.remove('active');
-        });
-        
-        // Add active class to clicked icon
-        e.currentTarget.classList.add('active');
-        
-        // Simulate page navigation
-        this.showToast('Navigation', `Navigated to ${e.currentTarget.dataset.tooltip}`);
-    }
 
-    toggleDropdown() {
-        const dropdown = document.querySelector('.dropdown-content');
-        dropdown.classList.toggle('show');
-    }
-
-    closeDropdown() {
-        const dropdown = document.querySelector('.dropdown-content');
-        dropdown.classList.remove('show');
-    }
-
-    setupSearch() {
-        const searchInput = document.getElementById('searchInput');
-        const searchResults = document.getElementById('searchResults');
-        
-        searchInput.addEventListener('input', (e) => {
-            const query = e.target.value.trim();
-            
-            if (query.length > 0) {
-                this.showSearchResults(query);
-            } else {
-                searchResults.style.display = 'none';
-            }
-        });
-
-        searchInput.addEventListener('focus', () => {
-            if (searchInput.value.trim().length > 0) {
-                searchResults.style.display = 'block';
-            }
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.search-container')) {
-                searchResults.style.display = 'none';
-            }
-        });
-    }
+      
 
     showSearchResults(query) {
         const searchResults = document.getElementById('searchResults');
