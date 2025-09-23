@@ -13,14 +13,7 @@ class FacebookClone {
        ;
     
 
-      sresult.name}" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
-                <div>
-                    <div style="font-weight: 600; font-size: 15px;">${result.name}</div>
-                    <div style="font-size: 13px; color: var(--text-secondary);">${result.type}</div>
-                </div>
-            </div>
-        `).join('');
-        
+  
         searchResults.style.display = 'block';
     }
 
