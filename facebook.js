@@ -13,10 +13,7 @@ class FacebookClone {
        ;
     
 
-      
-
-    showSearchResults(query) {
-        const searchResults = document.getElementById('searchResults');
+      s = document.getElementById('searchResults');
         const results = this.mockSearchResults(query);
         
         searchResults.innerHTML = results.map(result => `
