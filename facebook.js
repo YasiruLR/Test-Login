@@ -13,15 +13,7 @@ class FacebookClone {
        ;
     
 
-      
-
-    showSearchResults(query) {
-        const searchResults = document.getElementById('searchResults');
-        const results = this.mockSearchResults(query);
-        
-        searchResults.innerHTML = results.map(result => `
-            <div class="search-result-item" style="display: flex; align-items: center; gap: 12px; padding: 8px 12px; cursor: pointer;">
-                <img src="${result.avatar}" alt="${result.name}" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
+      sresult.name}" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
                 <div>
                     <div style="font-weight: 600; font-size: 15px;">${result.name}</div>
                     <div style="font-size: 13px; color: var(--text-secondary);">${result.type}</div>
