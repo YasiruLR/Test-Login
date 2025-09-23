@@ -13,35 +13,7 @@ class FacebookClone {
        ;
     
 
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.search-container')) {
-                searchResults.style.display = 'none';
-            }
-        });
-    }
-
-    showSearchResults(query) {
-        const searchResults = document.getElementById('searchResults');
-        const results = this.mockSearchResults(query);
-        
-        searchResults.innerHTML = results.map(result => `
-            <div class="search-result-item" style="display: flex; align-items: center; gap: 12px; padding: 8px 12px; cursor: pointer;">
-                <img src="${result.avatar}" alt="${result.name}" style="width: 36px; height: 36px; border-radius: 50%; object-fit: cover;">
-                <div>
-                    <div style="font-weight: 600; font-size: 15px;">${result.name}</div>
-                    <div style="font-size: 13px; color: var(--text-secondary);">${result.type}</div>
-                </div>
-            </div>
-        `).join('');
-        
-        searchResults.style.display = 'block';
-    }
-
-    mockSearchResults(query) {
-        const mockData = [
-            { name: 'Sarah Wilson', type: 'Friend', avatar: 'https://images.unsplash.com/photo-1494790108755-2616c113d94e?w=36&h=36&fit=crop&crop=face' },
+  end', avatar: 'https://images.unsplash.com/photo-1494790108755-2616c113d94e?w=36&h=36&fit=crop&crop=face' },
             { name: 'Web Developers Group', type: 'Group', avatar: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=36&h=36&fit=crop' },
             { name: 'Photography Club', type: 'Page', avatar: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=36&h=36&fit=crop' }
         ];
