@@ -20,14 +20,7 @@ class FacebookClone {
         );
     }
 
-    createPost() {
-        const text = document.getElementById('modalPostText').value.trim();
-        
-        if (!text) {
-            this.showToast('Error', 'Please write something to post');
-            return;
-        }
-
+    crea
         const newPost = {
             id: Date.now(),
             author: this.currentUser,
