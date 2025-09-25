@@ -13,10 +13,7 @@ class FacebookClone {
        ;
     
 
-  end', avatar: 'https://images.unsplash.com/photo-1494790108755-2616c113d94e?w=36&h=36&fit=crop&crop=face' },
-            { name: 'Web Developers Group', type: 'Group', avatar: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=36&h=36&fit=crop' },
-            { name: 'Photography Club', type: 'Page', avatar: 'https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=36&h=36&fit=crop' }
-        ];
+
         
         return mockData.filter(item => 
             item.name.toLowerCase().includes(query.toLowerCase())
