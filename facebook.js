@@ -20,14 +20,6 @@ class FacebookClone {
         );
     }
 
-   
-
-    closePostModal() {
-        const modal = document.getElementById('postModal');
-        modal.classList.remove('show');
-        document.getElementById('modalPostText').value = '';
-    }
-
     createPost() {
         const text = document.getElementById('modalPostText').value.trim();
         
