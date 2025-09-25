@@ -1,66 +1,6 @@
 // Facebook Clone JavaScript
 class FacebookClone {
-    constructor() {
-        this.posts = [];
-        this.currentUser = {
-            id: 1,
-            name: 'John Doe',
-            avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face'
-        };
-        this.init();
-    }
-    bindEvents() {
-       ;
-    
-
-
-        
-        return mockData.filter(item => 
-            item.name.toLowerCase().includes(query.toLowerCase())
-        );
-    }
-
-    crea
-        const newPost = {
-            id: Date.now(),
-            author: this.currentUser,
-            text: text,
-            timestamp: new Date(),
-            likes: 0,
-            comments: [],
-            shares: 0,
-            liked: false,
-            image: null
-        };
-
-        this.posts.unshift(newPost);
-        this.renderPosts();
-        this.closePostModal();
-        this.showToast('Success', 'Post created successfully!');
-    }
-
-    generateSamplePosts() {
-        const samplePosts = [
-            {
-                id: 1,
-                author: {
-                    name: 'Sarah Wilson',
-                    avatar: 'https://images.unsplash.com/photo-1494790108755-2616c113d94e?w=40&h=40&fit=crop&crop=face'
-                },
-                text: 'Just finished reading an amazing book about web development! The future of technology is so exciting 🚀',
-                timestamp: new Date(Date.now() - 2 * 60 * 60 * 1000), // 2 hours ago
-                likes: 24,
-                comments: [
-                    { author: 'Mike Johnson', text: 'Which book was it? I\'m looking for good tech reads!' },
-                    { author: 'Emma Davis', text: 'Sounds interesting! Would love to hear your thoughts' }
-                ],
-                shares: 3,
-                liked: false,
-                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop'
-            },
-            {
-                id: 2,
-                author: {
+  
                     name: 'Mike Johnson',
                     avatar: 'https://images.unsplash.com/photo-1539571696285-e7d0a4d75d35?w=40&h=40&fit=crop&crop=face'
                 },
