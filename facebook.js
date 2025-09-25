@@ -20,11 +20,7 @@ class FacebookClone {
         );
     }
 
-    openPostModal() {
-        const modal = document.getElementById('postModal');
-        modal.classList.add('show');
-        document.getElementById('modalPostText').focus();
-    }
+   
 
     closePostModal() {
         const modal = document.getElementById('postModal');
