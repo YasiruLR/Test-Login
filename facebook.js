@@ -9,22 +9,7 @@ class FacebookClone {
                 image: null
             },
             {
-                id: 4,
-                author: {
-                    name: 'Lisa Chen',
-                    avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=40&h=40&fit=crop&crop=face'
-                },
-                text: 'Homemade pizza night! 🍕 Nothing beats fresh ingredients and good company. Who else loves cooking on weekends?',
-                timestamp: new Date(Date.now() - 8 * 60 * 60 * 1000), // 8 hours ago
-                likes: 32,
-                comments: [
-                    { author: 'David Brown', text: 'That looks delicious! Recipe please? 😍' },
-                    { author: 'Emma Davis', text: 'Making me hungry! Invite me next time 😄' }
-                ],
-                shares: 2,
-                liked: true,
-                image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=500&h=300&fit=crop'
-            }
+               
         ];
 
         this.posts = samplePosts;
