@@ -3,21 +3,7 @@ class FacebookClone {
   
                     name: 'Mike Johnson',
                     avatar: 'https://images.unsplash.com/photo-1539571696285-e7d0a4d75d35?w=40&h=40&fit=crop&crop=face'
-                
-            {
-                id: 3,
-                author: {
-                    name: 'Emma Davis',
-                    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=40&h=40&fit=crop&crop=face'
-                },
-                text: 'Excited to announce that I\'ve joined the amazing team at TechCorp! Looking forward to new challenges and opportunities. Thank you to everyone who supported me on this journey! 💼✨',
-                timestamp: new Date(Date.now() - 6 * 60 * 60 * 1000), // 6 hours ago
-                likes: 89,
-                comments: [
-                    { author: 'John Doe', text: 'Congratulations Emma! Well deserved 👏' },
-                    { author: 'Sarah Wilson', text: 'So happy for you! You\'re going to do amazing things' },
-                    { author: 'Mike Johnson', text: 'Congrats! TechCorp is lucky to have you' }
-                ],
+           
                 shares: 12,
                 liked: false,
                 image: null
