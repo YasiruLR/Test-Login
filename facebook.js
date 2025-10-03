@@ -1,13 +1,5 @@
 // Facebook Clone JavaScript
-class FacebookClone {
-  
-                    name: 'Mike Johnson',
-                    avatar: 'https://images.unsplash.com/photo-1539571696285-e7d0a4d75d35?w=40&h=40&fit=crop&crop=face'
-           
-                shares: 12,
-                liked: false,
-                image: null
-            },
+
             {
                
         ];
