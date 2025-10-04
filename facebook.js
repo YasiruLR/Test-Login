@@ -1,16 +1,6 @@
 // Facebook Clone JavaScript
 
-            {
-               
-        ];
-
-        this.posts = samplePosts;
-    }
-
-    renderPosts() {
-        const container = document.getElementById('postsContainer');
-        container.innerHTML = this.posts.map(post => this.createPostHTML(post)).join('');
-    }
+        this.posts
 
     createPostHTML(post) {
         const timeAgo = this.getTimeAgo(post.timestamp);
