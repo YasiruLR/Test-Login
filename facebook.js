@@ -1,24 +1,6 @@
 // Facebook Clone JavaScript
-class FacebookClone {
-  
-                    name: 'Mike Johnson',
-                    avatar: 'https://images.unsplash.com/photo-1539571696285-e7d0a4d75d35?w=40&h=40&fit=crop&crop=face'
-           
-                shares: 12,
-                liked: false,
-                image: null
-            },
-            {
-               
-        ];
 
-        this.posts = samplePosts;
-    }
-
-    renderPosts() {
-        const container = document.getElementById('postsContainer');
-        container.innerHTML = this.posts.map(post => this.createPostHTML(post)).join('');
-    }
+        this.posts
 
     createPostHTML(post) {
         const timeAgo = this.getTimeAgo(post.timestamp);
