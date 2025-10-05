@@ -6,15 +6,7 @@
                                 <i class="fas fa-globe-americas"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="post-options">
-                        <i class="fas fa-ellipsis-h"></i>
-                    </div>
-                </div>
-                
-                <div class="post-content">
-                    <div class="post-text">${post.text}</div>
-                    ${hasImage}
+            
                 </div>
                 
                 <div class="post-stats">
