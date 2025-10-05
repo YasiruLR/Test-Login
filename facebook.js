@@ -2,51 +2,6 @@
 
         this.posts
 
-    createPostHTML(post) {
-        const timeAgo = this.getTimeAgo(post.timestamp);
-        const hasImage = post.image ? `<div class="post-media"><img src="${post.image}" alt="Post image"></div>` : '';
-        
-        return `
-            <div class="post" data-post-id="${post.id}">
-                <div class="post-header">
-                    <div class="post-author">
-                        <img src="${post.author.avatar}" alt="${post.author.name}">
-                        <div class="post-author-info">
-                            <h4>${post.author.name}</h4>
-                            <div class="post-time">
-                                <span>${timeAgo}</span>
-                                <i class="fas fa-globe-americas"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="post-options">
-                        <i class="fas fa-ellipsis-h"></i>
-                    </div>
-                </div>
-                
-                <div class="post-content">
-                    <div class="post-text">${post.text}</div>
-                    ${hasImage}
-                </div>
-                
-                <div class="post-stats">
-                    <div class="post-reactions">
-                        <div class="reaction-icons">
-                            <span class="like-icon">👍</span>
-                            <span class="love-icon">❤️</span>
-                        </div>
-                        <span>${post.likes} likes</span>
-                    </div>
-                    <div class="post-engagement">
-                        <span>${post.comments.length} comments</span>
-                        <span>${post.shares} shares</span>
-                    </div>
-                </div>
-                
-                <div class="post-actions">
-                    <div class="action-btn ${post.liked ? 'active' : ''}" data-action="like">
-                        <i class="fas fa-thumbs-up"></i>
-                        <span>Like</span>
                     </div>
                     <div class="action-btn" data-action="comment">
                         <i class="fas fa-comment"></i>
