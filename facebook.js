@@ -2,18 +2,6 @@
 
         this.posts
 
-    createPostHTML(post) {
-        const timeAgo = this.getTimeAgo(post.timestamp);
-        const hasImage = post.image ? `<div class="post-media"><img src="${post.image}" alt="Post image"></div>` : '';
-        
-        return `
-            <div class="post" data-post-id="${post.id}">
-                <div class="post-header">
-                    <div class="post-author">
-                        <img src="${post.author.avatar}" alt="${post.author.name}">
-                        <div class="post-author-info">
-                            <h4>${post.author.name}</h4>
-                            <div class="post-time">
                                 <span>${timeAgo}</span>
                                 <i class="fas fa-globe-americas"></i>
                             </div>
