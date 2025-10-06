@@ -4,16 +4,7 @@
             sharesSpan.textContent = `${post.shares} shares`;
             
      
-        const sendMessage = () => {
-            const message = chatInput.value.trim();
-            if (message) {
-                const messageElement = document.createElement('div');
-                messageElement.className = 'message sent';
-                messageElement.innerHTML = `<span>${message}</span>`;
-                chatMessages.appendChild(messageElement);
-                chatInput.value = '';
-                chatMessages.scrollTop = chatMessages.scrollHeight;
-                
+        c
                 // Simulate received message
                 setTimeout(() => {
                     const responses = [
