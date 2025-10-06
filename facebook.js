@@ -1,80 +1,9 @@
 // Facebook Clone JavaScript
 
-  
-        `;
-    }
-
-    }
-
-    handleLike(e) {
-        const postElement = e.target.closest('.post');
-        const postId = parseInt(postElement.dataset.postId);
-        const post = this.posts.find(p => p.id === postId);
-        const likeBtn = e.target.closest('.action-btn');
-
-        if (post) {
-            post.liked = !post.liked;
-            post.likes += post.liked ? 1 : -1;
-            
-            likeBtn.classList.toggle('active', post.liked);
-            
-            // Update like count in the post stats
-            const likesSpan = postElement.querySelector('.post-reactions span');
-            likesSpan.textContent = `${post.likes} likes`;
-            
-            // Add animation
-            likeBtn.style.transform = 'scale(0.9)';
-            setTimeout(() => {
-                likeBtn.style.transform = 'scale(1)';
-            }, 150);
-        }
-    }
-
-    handleComment(e) {
-        this.showToast('Comment', 'Comment feature coming soon!');
-    }
-
-    handleShare(e) {
-        const postElement = e.target.closest('.post');
-        const postId = parseInt(postElement.dataset.postId);
-        const post = this.posts.find(p => p.id === postId);
-
-        if (post) {
-            post.shares += 1;
-            const sharesSpan = postElement.querySelector('.post-engagement span:last-child');
+  -engagement span:last-child');
             sharesSpan.textContent = `${post.shares} shares`;
             
-            this.showToast('Shared', 'Post shared successfully!');
-        }
-    }
-
-    openStory() {
-        this.showToast('Stories', 'Story viewer coming soon!');
-    }
-
-    openChat(e) {
-        const contactName = e.currentTarget.querySelector('span').textContent;
-        const chatWidget = document.getElementById('chatWidget');
-        
-        // Update chat header with selected contact
-        const chatContactName = chatWidget.querySelector('.chat-contact span');
-        const chatContactImg = chatWidget.querySelector('.chat-contact img');
-        
-        chatContactName.textContent = contactName;
-        chatContactImg.src = e.currentTarget.querySelector('img').src;
-        
-        chatWidget.classList.add('show');
-    }
-
-    setupChatEvents() {
-        const chatWidget = document.getElementById('chatWidget');
-        const chatInput = chatWidget.querySelector('.chat-input input');
-        const chatMessages = chatWidget.querySelector('.chat-messages');
-        const sendBtn = chatWidget.querySelector('.fa-paper-plane');
-        const minimizeBtn = chatWidget.querySelector('.fa-minus');
-        const closeBtn = chatWidget.querySelector('.fa-times');
-
-        // Send message
+     
         const sendMessage = () => {
             const message = chatInput.value.trim();
             if (message) {
