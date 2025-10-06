@@ -1,18 +1,6 @@
 // Facebook Clone JavaScript
 
-        this.posts
-
-                    </div>
-                    <div class="action-btn" data-action="comment">
-                        <i class="fas fa-comment"></i>
-                        <span>Comment</span>
-                    </div>
-                    <div class="action-btn" data-action="share">
-                        <i class="fas fa-share"></i>
-                        <span>Share</span>
-                    </div>
-                </div>
-            </div>
+  
         `;
     }
 
