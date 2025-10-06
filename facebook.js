@@ -1,35 +1,9 @@
 // Facebook Clone JavaScript
 
-        this.posts
-
-                    </div>
-                    <div class="action-btn" data-action="comment">
-                        <i class="fas fa-comment"></i>
-                        <span>Comment</span>
-                    </div>
-                    <div class="action-btn" data-action="share">
-                        <i class="fas fa-share"></i>
-                        <span>Share</span>
-                    </div>
-                </div>
-            </div>
+  
         `;
     }
 
-    getTimeAgo(timestamp) {
-        const now = new Date();
-        const diff = now - timestamp;
-        const minutes = Math.floor(diff / 60000);
-        const hours = Math.floor(diff / 3600000);
-        const days = Math.floor(diff / 86400000);
-
-        if (minutes < 60) {
-            return `${minutes}m`;
-        } else if (hours < 24) {
-            return `${hours}h`;
-        } else {
-            return `${days}d`;
-        }
     }
 
     handleLike(e) {
