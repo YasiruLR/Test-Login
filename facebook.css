@@ -1,24 +1,6 @@
 
     --shadow-2: 0 8px 16px rgba(0, 0, 0, 0.15);
-    --shadow-3: 0 12px 28px rgba(0, 0, 0, 0.15);
-  
-    height: 40px;
-    padding: 0 12px 0 40px;
-
-
-.search-results {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: var(--background-secondary);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-2);
-    display: none;
-    z-index: 1001;
-}
-
-.nav-center {
+ 
     flex: 1;
     display: flex;
     justify-content: center;
