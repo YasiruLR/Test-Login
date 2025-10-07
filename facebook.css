@@ -23,16 +23,6 @@
 
 
 
-.dropdown-item:hover {
-    background: var(--hover-overlay);
-}
-
-.dropdown-item img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 .dropdown-item i {
     width: 36px;
