@@ -1,14 +1,6 @@
 
     --shadow-2: 0 8px 16px rgba(0, 0, 0, 0.15);
  
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    max-width: 590px;
-}
-
-.nav-icons {
-    display: flex;
     gap: 8px;
 }
 
