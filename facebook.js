@@ -1,37 +1,6 @@
 // Facebook Clone JavaScript
 
-  -engagement span:last-child');
-            sharesSpan.textContent = `${post.shares} shares`;
-            
-     
-        c
-                // Simulate received message
-                setTimeout(() => {
-                    const responses = [
-                        'That\'s great!',
-                        'I agree 😊',
-                        'Thanks for sharing!',
-                        'Sounds good to me',
-                        'Let\'s talk more about this later'
-                    ];
-                    const randomResponse = responses[Math.floor(Math.random() * responses.length)];
-                    const receivedMessage = document.createElement('div');
-                    receivedMessage.className = 'message received';
-                    receivedMessage.innerHTML = `<span>${randomResponse}</span>`;
-                    chatMessages.appendChild(receivedMessage);
-                    chatMessages.scrollTop = chatMessages.scrollHeight;
-                }, 1000 + Math.random() * 2000);
-            }
-        };
-
-        sendBtn.addEventListener('click', sendMessage);
-        chatInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                sendMessage();
-            }
-        });
-
-        minimizeBtn.addEventListener('click', () => {
+  click', () => {
             chatWidget.classList.remove('show');
         });
 
