@@ -20,17 +20,7 @@
 
 
 
-.profile-dropdown {
-    position: relative;
-}
 
-.profile-pic {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    cursor: pointer;
-    object-fit: cover;
-}
 
 .dropdown-content {
     position: absolute;
