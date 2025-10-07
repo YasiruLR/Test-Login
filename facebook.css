@@ -6,13 +6,6 @@
 
 
 
-.nav-icon:hover {
-    background: var(--hover-overlay);
-}
-
-.nav-icon.active {
-    color: var(--primary-blue);
-}
 
 .nav-icon.active::after {
     content: '';
@@ -25,71 +18,9 @@
     border-radius: 2px 2px 0 0;
 }
 
-.nav-icon i {
-    font-size: 20px;
-}
 
-.nav-right {
-    display: flex;
-    align-items: center;
-    flex: 1;
-    justify-content: flex-end;
-    max-width: 320px;
-}
 
-.nav-controls {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
 
-.control-icon {
-    width: 40px;
-    height: 40px;
-    background: var(--background-primary);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: var(--transition);
-    position: relative;
-}
-
-.control-icon:hover {
-    background: var(--hover-overlay);
-}
-
-.control-icon i {
-    font-size: 16px;
-    color: var(--text-primary);
-}
-
-.notification-badge {
-    position: absolute;
-    top: -2px;
-    right: -2px;
-    background: #e41e3f;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 2px 6px;
-    border-radius: 10px;
-    min-width: 16px;
-    text-align: center;
-}
-
-.profile-dropdown {
-    position: relative;
-}
-
-.profile-pic {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    cursor: pointer;
-    object-fit: cover;
-}
 
 .dropdown-content {
     position: absolute;
