@@ -6,13 +6,6 @@
 
 
 
-.nav-icon:hover {
-    background: var(--hover-overlay);
-}
-
-.nav-icon.active {
-    color: var(--primary-blue);
-}
 
 .nav-icon.active::after {
     content: '';
