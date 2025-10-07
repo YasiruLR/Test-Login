@@ -22,32 +22,6 @@
 
 
 
-.dropdown-content {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background: var(--background-secondary);
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow-3);
-    padding: 8px;
-    min-width: 320px;
-    display: none;
-    z-index: 1001;
-}
-
-.dropdown-content.show {
-    display: block;
-}
-
-.dropdown-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding: 8px 8px;
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    transition: var(--transition);
-}
 
 .dropdown-item:hover {
     background: var(--hover-overlay);
