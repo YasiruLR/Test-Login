@@ -4,17 +4,7 @@
     gap: 8px;
 }
 
-.nav-icon {
-    width: 112px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    transition: var(--transition);
-    position: relative;
-}
+
 
 .nav-icon:hover {
     background: var(--hover-overlay);
