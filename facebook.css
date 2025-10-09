@@ -28,23 +28,6 @@
 
 
 
-
-    display: flex;
-    justify-content: space-around;
-}
-
-.post-action {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 16px;
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    transition: var(--transition);
-    font-weight: 500;
-    color: var(--text-secondary);
-}
-
 .post-action:hover {
     background: var(--hover-overlay);
 }
