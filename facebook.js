@@ -1,20 +1,5 @@
 // Facebook Clone JavaScript
 
-  click', () => {
-            chatWidget.classList.remove('show');
-        });
-
-        closeBtn.addEventListener('click', () => {
-            chatWidget.classList.remove('show');
-        });
-    }
-
-    handleScroll() {
-        // Infinite scroll implementation
-        if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000) {
-            this.loadMorePosts();
-        }
-    }
 
     loadMorePosts() {
         // Simulate loading more posts
