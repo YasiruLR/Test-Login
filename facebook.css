@@ -23,20 +23,7 @@
 
 
 
-
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.subtitle {
-    font-size: 13px;
-    color: var(--text-secondary);
-}
-
-.dropdown-item hr {
-    border: none;
-    height: 1px;
-    background: var(--border-color);
+lor);
     margin: 8px 0;
 }
 
