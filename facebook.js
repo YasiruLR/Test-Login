@@ -1,21 +1,4 @@
-// Facebook Clone JavaScript
-
-
-    
-        document.body.appendChild(toast);
-
-        // Remove toast after 3 seconds
-        setTimeout(() => {
-            toast.style.animation = 'slideOutRight 0.3s ease';
-            setTimeout(() => {
-                document.body.removeChild(toast);
-            }, 300);
-        }, 3000);
-    }
-}
-
-// Add CSS animations for toasts
-const style = document.createElement('style');
+('style');
 style.textContent = `
     @keyframes slideInRight {
         from {
