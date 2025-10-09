@@ -1,29 +1,6 @@
 // Facebook Clone JavaScript
 
 
-    loadMorePosts() {
-        // Simulate loading more posts
-        if (this.posts.length < 20) { // Limit for demo
-            const additionalPosts = [
-                {
-                    id: Date.now(),
-                    author: {
-                        name: 'David Brown',
-                        avatar: 'https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=40&h=40&fit=crop&crop=face'
-                    },
-                    text: 'Working on a new project! Excited to share the progress with everyone. Stay tuned for updates! 💻🚀',
-                    timestamp: new Date(Date.now() - 10 * 60 * 60 * 1000),
-                    likes: Math.floor(Math.random() * 50) + 10,
-                    comments: [],
-                    shares: Math.floor(Math.random() * 10),
-                    liked: Math.random() > 0.5,
-                    image: Math.random() > 0.5 ? 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=300&fit=crop' : null
-                }
-            ];
-
-            this.posts.push(...additionalPosts);
-            this.renderPosts();
-        }
     }
 
     showToast(title, message) {
