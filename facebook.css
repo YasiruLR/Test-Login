@@ -23,16 +23,6 @@
 
 
 
-lor);
-    margin: 8px 0;
-}
-
-.logout {
-    color: var(--error-red);
-}
-
-/* Main Content */
-.main-content {
     display: flex;
     gap: 16px;
     max-width: 1264px;
