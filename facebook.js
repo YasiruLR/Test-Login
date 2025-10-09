@@ -1,31 +1,7 @@
 // Facebook Clone JavaScript
 
 
-    }
-
-    showToast(title, message) {
-        // Create toast notification
-        const toast = document.createElement('div');
-        toast.className = 'toast-notification';
-        toast.innerHTML = `
-            <div style="
-                position: fixed;
-                top: 20px;
-                right: 20px;
-                background: var(--background-secondary);
-                border: 1px solid var(--border-color);
-                border-radius: var(--border-radius);
-                padding: 16px;
-                box-shadow: var(--shadow-2);
-                z-index: 2001;
-                max-width: 300px;
-                animation: slideInRight 0.3s ease;
-            ">
-                <div style="font-weight: 600; margin-bottom: 4px;">${title}</div>
-                <div style="color: var(--text-secondary); font-size: 14px;">${message}</div>
-            </div>
-        `;
-
+    
         document.body.appendChild(toast);
 
         // Remove toast after 3 seconds
