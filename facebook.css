@@ -28,20 +28,7 @@
 
 
 
-}
 
-.create-post-header input::placeholder {
-    color: var(--text-secondary);
-}
-
-.create-post hr {
-    border: none;
-    height: 1px;
-    background: var(--border-color);
-    margin-bottom: 8px;
-}
-
-.create-post-actions {
     display: flex;
     justify-content: space-around;
 }
