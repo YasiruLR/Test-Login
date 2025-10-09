@@ -23,25 +23,6 @@
 
 
 
-    display: flex;
-    gap: 16px;
-    max-width: 1264px;
-    margin: 0 auto;
-    padding-top: 72px;
-    padding-bottom: 20px;
-}
-
-/* Left Sidebar */
-.left-sidebar {
-    width: 280px;
-    padding: 20px 8px;
-    position: sticky;
-    top: 72px;
-    height: fit-content;
-    max-height: calc(100vh - 92px);
-    overflow-y: auto;
-}
-
 .sidebar-item {
     display: flex;
     align-items: center;
