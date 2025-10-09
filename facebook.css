@@ -24,16 +24,6 @@
 
 
 
-    background: var(--hover-overlay);
-}
-
-.sidebar-item img {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .sidebar-item i {
     width: 36px;
     height: 36px;
